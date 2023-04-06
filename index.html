@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Play and Pause Task</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>MEDIA ELEMENTS</h1>
+    </div>
+
+    <div class="main-cont">
+      <h3 class="heading2">Audio</h3>
+
+      <div class="container">
+        <div class="container-wrapper1">
+          <img src="Yashoda-2022.jpg" alt="image" class="image-item" />
+          <audio id="myAudio" controls>
+            <source src="Oh Sita Hey Rama.mp3" type="audio/mpeg" />
+          </audio>
+          <h3>Yashodha</h3>
+          <div>
+            <button class="buttons" id="Pl_btn" onclick="playB1()">Play</button>
+            <button class="p-btn" id="pau_btn" onclick="pauseB1()">
+              Stop
+            </button>
+          </div>
+        </div>
+
+        <div class="container-wrapper2">
+          <img src="Brahmastra-2022.jpg" alt="image" class="image-item" />
+          <audio id="myAudio2" controls>
+            <source src="Kumkumala.mp3" type="audio/mpeg" />
+          </audio>
+          <h3>Brahmastra</h3>
+          <div>
+            <button class="buttons" onclick="playB2()" id="Pl_btn">Play</button>
+            <button class="p-btn" onclick="pauseB2()" id="pau_btn">Stop</button>
+          </div>
+        </div>
+
+        <div class="container-wrapper3">
+          <img src="Sir-2022.jpg" alt="image" class="image-item" />
+          <audio id="myAudio3" controls>
+            <source src="Mastaaru Mastaaru.mp3" type="audio/mpeg" />
+          </audio>
+          <h3>Sir</h3>
+          <div>
+            <button class="buttons" id="Pl_btn" onclick="playB3()">Play</button>
+            <button class="p-btn" id="pau_btn" onclick="pauseB3()">
+              Stop
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
